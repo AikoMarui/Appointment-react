@@ -1,0 +1,15 @@
+{
+  "name": "curso-de-testes-automatizados-com-jest",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
