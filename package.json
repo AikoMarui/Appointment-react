@@ -3,13 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
+  "jest": {
+    "testEnvironment": "jsdom",
+    "globals": {
+      "IS_REACT_ACT_ENVIRONMENT": true
+    }
+  },
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@babel/plugin-transform-runtime": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.27.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
