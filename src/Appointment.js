@@ -2,6 +2,7 @@ import React from "react";
 
 export const Appointment = ({ custumer }) => (
     <div>{custumer.firstName}</div>
+
 );
 
 export const AppointmentsDayView = ({ appointments }) => (
@@ -13,3 +14,7 @@ export const AppointmentsDayView = ({ appointments }) => (
         </ol>
     </div>
 )
+=======
+);
+
+
