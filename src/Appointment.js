@@ -8,7 +8,7 @@ export const AppointmentsDayView = ({ appointments }) => (
     <div id="AppointmentsDayView">
         <ol>
             {appointments.map( (Appointment) => (
-            <li key={Appointment.startAt}/> 
+            <li key={Appointment.startsAt}/> 
             ))}
         </ol>
     </div>
